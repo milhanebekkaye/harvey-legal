@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Harvey</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      color: #0d101b;
+      line-height: 1.7;
+    }
+    header {
+      background: #425ff0;
+      padding: 24px 0;
+      text-align: center;
+    }
+    header h1 {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    header p {
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .contact-box {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .contact-box h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .contact-box p {
+      color: #475569;
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+    .contact-box a.button {
+      display: inline-block;
+      background: #425ff0;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    .contact-box a.button:hover { background: #3451d1; }
+    h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #0d101b;
+      margin-top: 36px;
+      margin-bottom: 10px;
+    }
+    .faq-item {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 12px;
+    }
+    .faq-item h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #0d101b;
+    }
+    .faq-item p {
+      font-size: 14px;
+      color: #475569;
+      margin: 0;
+    }
+    a { color: #425ff0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Harvey</h1>
+  <p>AI Accountability Coach</p>
+</header>
+
+<div class="container">
+
+  <div class="contact-box">
+    <h2>Need help?</h2>
+    <p>We typically respond within 24 hours.</p>
+    <a class="button" href="mailto:milhane@harvey-ai.app">Contact Support</a>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What is Harvey?</h3>
+    <p>Harvey is an AI accountability coach for entrepreneurs and ambitious people. It knows your projects and goals, initiates daily contact with a personalized brief, and helps you manage your day through natural conversation.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I create tasks?</h3>
+    <p>Just talk to Harvey. Type something like "add a task to review the pitch deck tomorrow at 10am" and Harvey will create it. You can also use the + button on the calendar or timeline view.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Why am I not receiving daily brief notifications?</h3>
+    <p>Make sure notifications are enabled for Harvey in your iPhone Settings → Notifications → Harvey. The daily brief is sent at 8am your local time. If you still don't receive it, try signing out and back in to re-register your device.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I connect Apple Calendar?</h3>
+    <p>On the Calendar tab, Harvey will ask for calendar access the first time. Tap Allow and your Apple Calendar events will appear alongside your Harvey tasks. You can also grant access later via iPhone Settings → Privacy → Calendars → Harvey.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I delete my account?</h3>
+    <p>Send an email to <a href="mailto:milhane@harvey-ai.app">milhane@harvey-ai.app</a> with the subject "Delete my account" and we will permanently delete all your data within 30 days.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is my data private?</h3>
+    <p>Yes. Your tasks and projects are stored securely and never sold to third parties. Harvey uses AI to generate coaching messages — your data is sent to Anthropic's API for this purpose only. Read our full <a href="./privacy-policy.html">Privacy Policy</a>.</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Harvey. All rights reserved. · <a href="./privacy-policy.html">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
