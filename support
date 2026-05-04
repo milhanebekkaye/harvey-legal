@@ -142,13 +142,13 @@
 
   <div class="faq-item">
     <h3>Is my data private?</h3>
-    <p>Yes. Your tasks and projects are stored securely and never sold to third parties. Harvey uses AI to generate coaching messages — your data is sent to Anthropic's API for this purpose only. Read our full <a href="./privacy-policy.html">Privacy Policy</a>.</p>
+    <p>Yes. Your tasks and projects are stored securely and never sold to third parties. Harvey uses AI to generate coaching messages — your data is sent to Anthropic's API for this purpose only. Read our full <a href="https://milhanebekkaye.github.io/harvey-legal/privacy-policy.html">Privacy Policy</a>.</p>
   </div>
 
 </div>
 
 <footer>
-  © 2026 Harvey. All rights reserved. · <a href="./privacy-policy.html">Privacy Policy</a>
+  © 2026 Harvey. All rights reserved. · <a href="https://milhanebekkaye.github.io/harvey-legal/privacy-policy.html">Privacy Policy</a>
 </footer>
 
 </body>
